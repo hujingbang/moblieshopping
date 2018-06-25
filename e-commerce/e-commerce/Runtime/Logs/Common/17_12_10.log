@@ -1,0 +1,12 @@
+[ 2017-12-10T03:13:00+08:00 ] 127.0.0.1 /index.php/index.php/Home/Signinout/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index.php
+
+[ 2017-12-10T03:13:30+08:00 ] 127.0.0.1 /index.php/index.php/Home/Signinout/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index.php
+

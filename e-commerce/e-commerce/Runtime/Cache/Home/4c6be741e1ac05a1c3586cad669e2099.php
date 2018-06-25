@@ -1,0 +1,140 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 	<link rel="stylesheet" type="text/css" href="/Home/Public/css/ShopStyle.css">
+	<script type="text/javascript" src="{.SHOP_JS}vue.js"></script>
+  <script type="text/javascript" src="/Home/Public/js/jquery-3.2.1.js"></script>
+  <link rel="stylesheet" type="text/css" href="/Home/Public/css/personIndent.css">
+	<meta http-equiv="content-type" content="text/html" charset="utf-8">
+	</head>
+	<body>
+		<div class="top">
+			<a href="" id="user">欢迎<b>胡经邦</b>用户,登录成功!</a>
+			<a href="">退出</a>
+			<span >
+				<a href="">JB商城首页</a>
+				<a href="">商品分类</a>
+				<a href="">卖家中心</a>
+				<a href="">联系客服</a>
+			</span>
+
+		</div>
+		<div class="banner-top">
+			<img src="<?php echo (SHOP_IMG); ?>/logo.png">
+			<span>
+				<a href="">首页</a>
+				<a href="">账户设置</a>
+				<a href="">消息</a>
+			</span>
+		</div>
+		<div class="MyIndent">
+			<div class="Indent-top text-center ">
+				<a href="" class="abottomStyle">所有订单</a>
+				<span>|</span>
+				<a href="">待付款</a>
+				<span>|</span>
+				<a href="">待发货</a>
+				<span>|</span>
+				<a href="">待收货</a>
+				<span>|</span>
+				<a href="">待评价</a>
+				<span>|</span>
+			</div>
+			<div class="Indent-SE">
+				<form action="" method="post">
+					<input type="text" name="indentname" placeholder="商品标题或者订单号" />
+					<input type="submit" name="indentsearch" value="订单搜索">
+				</form>
+			</div>
+			<div class="Indent-table">
+				<span>宝贝</span>
+				<span>单价</span>
+				<span>数量</span>
+				<span>商品操作</span>
+				<span>实付款</span>
+				<span>交易状态</span>
+				<span>交易操作</span>
+			</div>
+			<div class="IndentInformation">
+				<div class="Indentonce">
+					<div class="inforTop">
+						<span>
+							<b>2017-12-21</b> 订单号:<span>4646546455566</span>
+						</span>
+					</div>
+					<div class="orderinformation">
+						<span id="GoodsShowOnce">
+							<img src="<?php echo (SHOP_IMG); ?>/fruitthree.jpg">
+							<p class="Goodsinformation">红富士苹果国内最甜的苹果,价格廉价,非常受国内人吃</p>
+						</span>
+						<span id="gprice"><b>￥</b>56.0</span>
+						<span id="gnumber">1</span>
+						<span ><a href="">退款/退货</a></span>
+						<span><b>￥</b>56.0</span>
+						<span><a href="">订单详情</a></span>
+						<span><a href="">再次购买</a></span>
+					</div>
+				</div>
+				<div class="Indentonce">
+					<div class="inforTop">
+						<span>
+							<b>2017-12-21</b> 订单号:<span>4646546455566</span>
+						</span>
+					</div>
+					<div class="orderinformation">
+						<span id="GoodsShowOnce">
+							<img src="<?php echo (SHOP_IMG); ?>/fruitthree.jpg">
+							<p class="Goodsinformation">红富士苹果国内最甜的苹果,价格廉价,非常受国内人吃</p>
+						</span>
+						<span id="gprice"><b>￥</b>56.0</span>
+						<span id="gnumber">1</span>
+						<span ><a href="">退款/退货</a></span>
+						<span><b>￥</b>56.0</span>
+						<span><a href="">订单详情</a></span>
+						<span><a href="">再次购买</a></span>
+					</div>
+				</div>
+					<div class="Indentonce">
+					<div class="inforTop">
+						<span>
+							<b>2017-12-21</b> 订单号:<span>4646546455566</span>
+						</span>
+					</div>
+					<div class="orderinformation">
+						<span id="GoodsShowOnce">
+							<img src="<?php echo (SHOP_IMG); ?>/fruitthree.jpg">
+							<p class="Goodsinformation">红富士苹果国内最甜的苹果,价格廉价,非常受国内人吃</p>
+						</span>
+						<span id="gprice"><b>￥</b>56.0</span>
+						<span id="gnumber">1</span>
+						<span ><a href="">退款/退货</a></span>
+						<span><b>￥</b>56.0</span>
+						<span><a href="">订单详情</a></span>
+						<span><a href="">再次购买</a></span>
+					</div>
+				</div>
+					<div class="Indentonce">
+					<div class="inforTop">
+						<span>
+							<b>2017-12-21</b> 订单号:<span>4646546455566</span>
+						</span>
+					</div>
+					<div class="orderinformation">
+						<span id="GoodsShowOnce">
+							<img src="<?php echo (SHOP_IMG); ?>/fruitthree.jpg">
+							<p class="Goodsinformation">红富士苹果国内最甜的苹果,价格廉价,非常受国内人吃</p>
+						</span>
+						<span id="gprice"><b>￥</b>56.0</span>
+						<span id="gnumber">1</span>
+						<span ><a href="">退款/退货</a></span>
+						<span><b>￥</b>56.0</span>
+						<span><a href="">订单详情</a></span>
+						<span><a href="">再次购买</a></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

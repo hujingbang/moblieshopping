@@ -1,0 +1,61 @@
+<layout name='Adlayout/template' />
+<form action="__CONTROLLER__/modeladdgoods" method="post" enctype="multipart/form-data">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-2 col-md-offset-2">
+				<h1>添加商品</h1>
+			</div>
+		</div>
+			<hr>
+		<div class="row">
+			<div class="col-md-4 col-md-offset-3" style="margin-top: 25px;">
+				<div class="input-group">
+				  <span class="input-group-addon" id="basic-name">商品名称</span>
+				  <input type="text" class="form-control" name="goodsname">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 col-md-offset-3" style="margin-top: 25px;">
+				<div class="input-group">
+				  <span class="input-group-addon" id="basic-price">商品价格</span>
+				  <input type="text" class="form-control" name="goodsprice">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 col-md-offset-3" style="margin-top: 25px;">
+				<div class="input-group">
+				  <span class="input-group-addon" id="basic-weight">商品重量</span>
+				  <input type="text" class="form-control" name="goodsweight">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			  <div class="col-xs-6 col-md-3 col-md-offset-3"  style="margin-top: 25px;">
+			      <img src="/Back/Public/images/uploadgoods.png" width="170" height="180" id="goodsimg">
+			  </div>
+		</div>
+		<div class="row">
+			  <button type="button" name="uploadfile" id="uploadimg" class="btn btn-info  col-md-2 col-md-offset-3" style="margin-top: 25px;">上传图片</button>
+		</div>
+			<input type="file" name="goodsfile" style="opacity: 0;" onchange="UrlUpload(this)" >
+
+			<script type="text/javascript">
+				
+				document.getElementsByName('uploadfile')[0].onclick=function (){
+
+					$("input[type='file']").click();
+				}
+				function UrlUpload(uploadgoodsimg){
+					console.log(uploadgoodsimg.files[0]);
+					var url=window.URL.createObjectURL(uploadgoodsimg.files[0]);
+						$("#goodsimg").attr("src",url);
+
+				}
+			</script>
+			<div class="row">
+				<input type="submit" name="addgoods" value="添加" class="btn btn-info col-md-3 col-md-offset-3" >
+			</div>
+	</div>
+</form>

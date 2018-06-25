@@ -1,0 +1,234 @@
+
+.nav-top{
+			position: relative;
+			height:25px;
+			width:100%;
+			background-color: #eee;
+			display: flex;
+			justify-content: space-around;
+		}
+		.indent{
+			position: absolute;
+			height:0px;
+			width:120px;
+			background-color:#eee;
+			left:31%;
+			 overflow: hidden;
+		}
+		.exitlogin{
+			position: absolute;
+			height:0px;
+			width:100px;
+			background-color:#eee;
+			
+			 overflow: hidden;
+		}
+		.HelpCenter{
+			position: absolute;
+			height:0px;
+			width:120px;
+			background-color:#eee;
+			left:55%;
+			 overflow: hidden;
+		}
+
+		.indent li,.HelpCenter li{
+			padding-top:9px;
+		}
+
+		.SignInRight{
+			position: relative;
+			top:0;
+		}
+		.SignInRight a {
+			padding:0 20px 0 20px;
+			color:#828282;
+		}
+		.SignInRight a:hover{
+			color:red;
+
+		}
+		.SignInRight img {
+			position: absolute;
+			top:1px;
+		}
+		#house{
+			position: absolute;
+			left:-45px;
+		}
+		.nav-top span:nth-child(1) {
+			position: relative;
+
+		}
+		#SE {
+			width:400px;
+			height:48px;
+			border:1px solid skyblue;
+
+		}
+		.btn-Se{
+			width:50px;
+			height:50px;
+			background:url('{$Think.SHOP_IMG}SE.png') center center no-repeat;
+			border:0px;
+			background-color:skyblue;
+
+		}
+		.logolayout {
+			width: 100%;
+			height: 120px;
+			display: flex;
+			align-items: center;
+		}
+		#form-block {
+			width: 100%;
+			height:100px;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+		.nav {
+			width:100%;
+			height:60px;
+			background-color:rgba(241, 241, 241, 0.96);
+			justify-content: center;
+			display: flex;
+			align-items: center;
+
+		}
+		.nav a{
+			color:rgba(53, 53, 53, 0.62);
+		}
+		.nav a:hover {
+			color:orange;
+		}
+		.banneranimate {
+			position: relative;
+			width:100%;
+			height:450px;
+			background: url('/Home/Public/images/bannerone.jpg') center center no-repeat;
+			background-size: cover;
+		}
+		.under-list li {
+	
+			width:25px;
+			height:10px;
+			background-color: #eee;
+			display: inline-block;
+			padding: 0 28px 0 28px;
+			margin: 0 25px 0 25px;
+
+
+		}
+		.under-list{
+			position: absolute;
+			width:800px;
+			height:80px;
+			left:28%;
+			bottom: 0px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		#prev{
+			height:100px;
+			width: 50px;
+			background-color:#eee; 
+			opacity: 0.5;
+			position: absolute;
+			font-size: 70px;
+			font-weight: 900;
+			top:30%;
+			left:20%;
+			color:black;
+		}
+		#next{
+			height:100px;
+			width: 50px;
+			background-color:#eee; 
+			top:30%;
+			opacity: 0.5;
+			position: absolute;
+			font-size: 70px;
+			font-weight: 900;
+			right:20%;
+			color:black;
+		}
+		#next:hover,#prev:hover{
+			opacity: 0.3;
+		}
+		.under-list .active{
+			background-color:orange;
+		}
+		#shopcart {
+			position: relative;
+			width:170px;
+			height:45px;
+			background-color:rgba(230, 230, 230, 0.77);
+			color:rgba(195, 20, 20, 0.6);
+			display: flex;
+			align-items:center;
+			justify-content:center;
+		}
+		#shopcart i{
+			position: absolute;
+			top:5px;
+			right:20px;
+			border-radius: 20px;
+			width:20px;
+			height:20px;
+			background-color:red;
+		}
+
+		.ShopCartAddData {
+			position: absolute;
+			width:450px;
+			height:600px;
+			overflow: auto;
+			
+		}
+		.previewGoods div{
+			width:300px;
+			height:300px;
+			box-shadow: 5px 5px 5px #eee;
+			display: inline-block;
+
+		}
+		.ProductMacket {
+			width: 100%;
+		}
+		.previewGoods{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+		}
+		.ProductMacket .once{
+			display: flex;
+			justify-content: center;
+			
+		}
+		.ProductMacket .once div {
+			padding:0 25px 0 25px;
+			height:450px;
+			box-shadow:5px 5px 5px #eee;
+			
+		}
+		.previewGoods div:hover {
+			opacity: 0.6;
+		}
+		.banneranimate img {
+			min-width:100%;
+		}
+		#imgshowgoods {
+			width:250px;
+			height:250px;
+		}
+		.copyright-foot {
+			height:200px;
+			line-height: 100px;
+			width:100%;
+			background-color: #eee;
+			opacity: 0.7;
+		}
+		

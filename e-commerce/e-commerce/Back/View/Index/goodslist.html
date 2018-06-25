@@ -1,0 +1,54 @@
+<layout name='Adlayout/template' />
+<div class="container-fluid">
+
+				<div class="row">
+						<form method="post" action="__SELF__">
+					<div class="col-lg-3 col-md-offset-2 " style="margin-top:25px;">
+    					<div class="input-group">
+    						
+	     						 <input type="text" class="form-control" placeholder="搜索关键字" name="SEGoodsName" />
+							      <span class="input-group-btn">
+							       <button class="btn btn-default" type="submit" id="SE">搜索</button>
+							      </span>
+						    
+						 </div><!-- /input-group -->
+					</div><!-- /.col-lg-6 -->
+					  </form>
+						 <div class="col-lg-2 col-md-offset-5 " style="margin-top:25px;">
+						 	<div>
+						 		<a href="__CONTROLLER__/modeladdgoods"><button class="btn btn-info" ><span class="glyphicon glyphicon-plus"></span>添加商品</button></a>
+						 	</div>
+						 </div>
+					</div>
+					<div class="row">
+						<div class="col-md-offset-2 col-md-10" style="margin-top:25px;">
+							<table class="table table-hover">
+ 								<tr>
+ 									<th>全选</th>
+ 									<th>id编号</th>
+ 									<th>商品名称</th>
+ 									<th>商品图片</th>
+ 									<th>商品价格(元)</th>
+ 									<th>商品重量(g)</th>
+ 									<th>操作</th>
+ 								</tr>
+ 								<volist name='list' id='data' key='k'> 
+ 									<tr>
+ 										<td><input type="checkbox" name="" id="{$data.id}"></td>
+ 										<td>{:(I('get.p'))?((I('get.p')-1)*8+$k):($k)}</td>
+ 										<td>{$data.goodsname}</td>
+ 										<td><img src="{$data.goodsurl}" width="60" height="60"></td>
+ 										<td>{$data.goodsprice}</td>
+ 										<td>{$data.goodsweight}</td>
+ 										<td>
+ 										<a href="__CONTROLLER__/deletedata/id/{$data.id}">删除</a>
+ 										<a href="__CONTROLLER__/modifygoods/id/{$data.id}">修改</a></td>
+ 									</tr>
+ 								</volist>
+							</table>
+							<div class="row text-center">
+								{$page}
+							</div>
+						</div>
+					</div><!-- /.row -->
+				</div>

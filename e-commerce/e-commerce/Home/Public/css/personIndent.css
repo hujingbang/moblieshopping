@@ -1,0 +1,146 @@
+.top {
+	height: 40px;
+	width: 100%;
+	background-color: #f5f7e5;
+	line-height: 40px;
+
+}
+.top a{
+	color:#6C6C6C;
+	font-family: 微软雅黑;
+}
+.top a:hover {
+	color:orange;
+}
+.top span{
+	float:right;
+	padding-right: 100px;
+}
+.top span a {
+	margin:0 25px 0 25px;
+	
+}
+#user {
+	margin-left:100px;
+}
+.banner-top {
+
+	height:100px;
+	background-color:#ff4401; 
+	width:100%;
+	line-height:90px;
+}
+.banner-top a {
+	color:white;
+	font-size: 23px;
+	margin:0 25px 0 25px;
+
+}
+.banner-top span {
+	margin-left: 200px;
+}
+.banner-top img {
+	margin-left: 120px;
+	vertical-align: middle;
+}
+.MyIndent {
+	height:800px;
+	width:1200px;
+	margin:0 auto;
+
+}
+.MyIndent .Indent-top {
+	line-height: 50px;
+	height: 50px;
+	border-bottom:1px solid #ccc;
+}
+.Indent-top a{
+	font-size:25px;
+	color:black;
+	padding:0 25px 9px 25px;
+	
+}
+.Indent-top a:hover{
+	color:orange;
+}
+.abottomStyle {
+	border-bottom:5px solid orange;
+}
+input[name='indentname'] {
+
+	width:250px;
+	height:30px;
+	border:1px solid #ccc;
+
+}
+input[name='indentsearch'] {
+	margin-left:-5px;
+
+	width:60px;
+	height:32px;
+	border:0;
+	color:white;
+	font-weight:900;
+}
+.Indent-SE {
+	height:80px;
+	line-height: 80px;
+	padding-left: 50px;
+
+}
+.Indent-table {
+	line-height: 60px;
+	height:60px;
+	background-color: #eee;
+}
+.Indent-table span:first-child{
+	margin-left:150px;
+	margin-right:220px;
+
+}
+.Indent-table span{
+
+	margin:0 0px 0 70px;
+}
+.inforTop {
+	line-height:50px; 
+	height:50px;
+	background-color:rgba(135, 206, 235, 0.27);
+	padding-left:50px;
+}
+.IndentInformation {
+	margin-top:50px;
+
+}
+.IndentInformation .Indentonce {
+
+		height:200px;
+		border:2px solid #eee;
+		margin-bottom: 50px;
+}
+.IndentInformation .Indentonce:hover{
+		border:2px solid skyblue;
+
+}
+#GoodsShowOnce img {
+	border:1px solid #ccc;
+	padding:10px;
+	margin:25px;
+	width:80px;
+	height:80px;
+	vertical-align: middle;
+
+}
+.orderinformation {
+	height:150px;
+}
+.Goodsinformation {
+	display: inline-block;
+	width:270px;
+}
+.orderinformation span:not(#GoodsShowOnce) {
+	display: inline-block;
+	width:65px;
+	text-align:left;
+	margin-left:55px;		
+}

@@ -1,0 +1,2805 @@
+[ 2017-12-15T09:54:25+08:00 ] 127.0.0.1 /index.php/Home/Index/ShopCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sumtotal F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 306 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T09:54:29+08:00 ] 127.0.0.1 /index.php/Home/Index/longGoodsShow/goodsid/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `indexshowgoods` WHERE ( id = 13 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T09:54:30+08:00 ] 127.0.0.1 /index.php/Home/Index/ShopCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sumtotal F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 306 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T09:54:35+08:00 ] 127.0.0.1 /index.php/Home/Index/longGoodsShow/goodsid/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shopcart` WHERE ( goodsname = '小米电视4A 43英寸 标准版' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `shopcart` (`pid`,`goodsname`,`goodsprice`,`goodsweight`,`goodsurl`,`goodsnumber`,`goodstotal`) VALUES ('1','小米电视4A 43英寸 标准版','1999','64G','/Back/Public/upload/5a2a4d491d4b1.png','1','1999') [ RunTime:0.0750s ]
+SQL: SELECT * FROM `shopcart` WHERE ( goodsname = '小米电视4A 43英寸 标准版' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-15T09:54:38+08:00 ] 127.0.0.1 /index.php/Home/Index/ShopCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: goodsweight F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 283 行.
+NOTIC: [8] Array to string conversion F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T09:54:40+08:00 ] 127.0.0.1 /index.php/Home/Index/longGoodsShow/goodsid/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `indexshowgoods` WHERE ( id = 13 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T09:54:41+08:00 ] 127.0.0.1 /index.php/Home/Index/longGoodsShow/goodsid/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `indexshowgoods` WHERE ( id = 13 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T09:54:41+08:00 ] 127.0.0.1 /index.php/Home/Index/longGoodsShow/goodsid/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `indexshowgoods` WHERE ( id = 13 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T09:54:46+08:00 ] 127.0.0.1 /index.php/Home/Index/longGoodsShow/goodsid/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `indexshowgoods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T09:54:47+08:00 ] 127.0.0.1 /index.php/Home/Index/ShopCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: goodsweight F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 283 行.
+NOTIC: [8] Array to string conversion F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T09:54:48+08:00 ] 127.0.0.1 /index.php/Home/Index/ShopCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: goodsweight F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 283 行.
+NOTIC: [8] Array to string conversion F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T09:54:48+08:00 ] 127.0.0.1 /index.php/Home/Index/ShopCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: goodsweight F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 283 行.
+NOTIC: [8] Array to string conversion F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T09:54:54+08:00 ] 127.0.0.1 /index.php/Home/Index/ShopCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: goodsweight F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 283 行.
+NOTIC: [8] Array to string conversion F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T09:54:55+08:00 ] 127.0.0.1 /index.php/Home/Index/ShopCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: goodsweight F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 283 行.
+NOTIC: [8] Array to string conversion F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T09:55:00+08:00 ] 127.0.0.1 /index.php/Home/Index/ShopCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: goodsweight F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 283 行.
+NOTIC: [8] Array to string conversion F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T09:55:02+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+SQL: UPDATE `shopcart` SET `goodsnumber`=goodsnumber+1 WHERE ( id = 60 ) [ RunTime:0.0640s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `shopcart` SET `goodstotal`=goodstotal+1999.00 WHERE ( id = 60 ) [ RunTime:0.0240s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-15T09:55:02+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+SQL: UPDATE `shopcart` SET `goodsnumber`=goodsnumber+1 WHERE ( id = 60 ) [ RunTime:0.0340s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `shopcart` SET `goodstotal`=goodstotal+1999.00 WHERE ( id = 60 ) [ RunTime:0.0230s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-15T09:55:02+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+SQL: UPDATE `shopcart` SET `goodsnumber`=goodsnumber+1 WHERE ( id = 60 ) [ RunTime:0.0510s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `shopcart` SET `goodstotal`=goodstotal+1999.00 WHERE ( id = 60 ) [ RunTime:0.0250s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-12-15T09:55:02+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+SQL: UPDATE `shopcart` SET `goodsnumber`=goodsnumber+1 WHERE ( id = 60 ) [ RunTime:0.0230s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `shopcart` SET `goodstotal`=goodstotal+1999.00 WHERE ( id = 60 ) [ RunTime:0.0250s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-15T09:55:03+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `shopcart` SET `goodsnumber`=goodsnumber-1 WHERE ( id = 60 ) [ RunTime:0.0360s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `shopcart` SET `goodstotal`=goodstotal-1999.00 WHERE ( id = 60 ) [ RunTime:0.0240s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-15T09:55:04+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `shopcart` SET `goodsnumber`=goodsnumber-1 WHERE ( id = 60 ) [ RunTime:0.0410s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `shopcart` SET `goodstotal`=goodstotal-1999.00 WHERE ( id = 60 ) [ RunTime:0.0230s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-12-15T09:55:04+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `shopcart` SET `goodsnumber`=goodsnumber-1 WHERE ( id = 60 ) [ RunTime:0.0800s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `shopcart` SET `goodstotal`=goodstotal-1999.00 WHERE ( id = 60 ) [ RunTime:0.0910s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-12-15T09:55:04+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `shopcart` SET `goodsnumber`=goodsnumber-1 WHERE ( id = 60 ) [ RunTime:0.0610s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `shopcart` SET `goodstotal`=goodstotal-1999.00 WHERE ( id = 60 ) [ RunTime:0.0230s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-15T09:55:05+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `shopcart` SET `goodsnumber`=goodsnumber-1 WHERE ( id = 60 ) [ RunTime:0.0410s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `shopcart` SET `goodstotal`=goodstotal-1999.00 WHERE ( id = 60 ) [ RunTime:0.0340s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-15T09:55:06+08:00 ] 127.0.0.1 /index.php/Home/Index/ShopCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: goodsweight F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 283 行.
+NOTIC: [8] Array to string conversion F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T09:55:07+08:00 ] 127.0.0.1 /index.php/Home/Index/ShopCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: goodsweight F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 283 行.
+NOTIC: [8] Array to string conversion F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T09:55:24+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+SQL: UPDATE `shopcart` SET `goodsnumber`=goodsnumber+1 WHERE ( id = 60 ) [ RunTime:0.0540s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `shopcart` SET `goodstotal`=goodstotal+1999.00 WHERE ( id = 60 ) [ RunTime:0.0250s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-15T09:55:27+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+SQL: UPDATE `shopcart` SET `goodsnumber`=goodsnumber+1 WHERE ( id = 60 ) [ RunTime:0.0300s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `shopcart` SET `goodstotal`=goodstotal+1999.00 WHERE ( id = 60 ) [ RunTime:0.0220s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-12-15T09:55:27+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+SQL: UPDATE `shopcart` SET `goodsnumber`=goodsnumber+1 WHERE ( id = 60 ) [ RunTime:0.0360s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `shopcart` SET `goodstotal`=goodstotal+1999.00 WHERE ( id = 60 ) [ RunTime:0.0220s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-15T09:55:29+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `shopcart` SET `goodsnumber`=goodsnumber-1 WHERE ( id = 60 ) [ RunTime:0.0390s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `shopcart` SET `goodstotal`=goodstotal-1999.00 WHERE ( id = 60 ) [ RunTime:0.0230s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-15T09:55:29+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `shopcart` SET `goodsnumber`=goodsnumber-1 WHERE ( id = 60 ) [ RunTime:0.0390s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `shopcart` SET `goodstotal`=goodstotal-1999.00 WHERE ( id = 60 ) [ RunTime:0.0230s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-15T09:55:29+08:00 ] 127.0.0.1 /index.php/Home/Index/ShopCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: goodsweight F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 283 行.
+NOTIC: [8] Array to string conversion F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T09:55:30+08:00 ] 127.0.0.1 /index.php/Home/Index/ShopCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: goodsweight F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 283 行.
+NOTIC: [8] Array to string conversion F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T09:55:39+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+SQL: UPDATE `shopcart` SET `goodsnumber`=goodsnumber+1 WHERE ( id = 60 ) [ RunTime:0.0400s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `shopcart` SET `goodstotal`=goodstotal+1999.00 WHERE ( id = 60 ) [ RunTime:0.0220s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-12-15T09:55:39+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+SQL: UPDATE `shopcart` SET `goodsnumber`=goodsnumber+1 WHERE ( id = 60 ) [ RunTime:0.0260s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `shopcart` SET `goodstotal`=goodstotal+1999.00 WHERE ( id = 60 ) [ RunTime:0.0240s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-12-15T09:55:39+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+SQL: UPDATE `shopcart` SET `goodsnumber`=goodsnumber+1 WHERE ( id = 60 ) [ RunTime:0.0310s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `shopcart` SET `goodstotal`=goodstotal+1999.00 WHERE ( id = 60 ) [ RunTime:0.0220s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-15T09:55:40+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+SQL: UPDATE `shopcart` SET `goodsnumber`=goodsnumber+1 WHERE ( id = 60 ) [ RunTime:0.0370s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `shopcart` SET `goodstotal`=goodstotal+1999.00 WHERE ( id = 60 ) [ RunTime:0.0210s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-15T09:55:40+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+SQL: UPDATE `shopcart` SET `goodsnumber`=goodsnumber+1 WHERE ( id = 60 ) [ RunTime:0.0200s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `shopcart` SET `goodstotal`=goodstotal+1999.00 WHERE ( id = 60 ) [ RunTime:0.0360s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 60 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-12-15T09:55:40+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+SQL: DELETE FROM `shopcart` WHERE ( id = 60 ) [ RunTime:0.0300s ]
+SQL: SELECT `pid` FROM `shopcart` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-12-15T09:55:44+08:00 ] 127.0.0.1 /index.php/Home/Index/longGoodsShow/goodsid/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `indexshowgoods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T09:55:45+08:00 ] 127.0.0.1 /index.php/Home/Index/ShopCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sumtotal F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 306 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T09:56:20+08:00 ] 127.0.0.1 /index.php/Home/Index/ShopCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sumtotal F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 306 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T09:56:22+08:00 ] 127.0.0.1 /index.php/Home/Index/ShopCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sumtotal F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 306 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T09:56:22+08:00 ] 127.0.0.1 /index.php/Home/Index/ShopCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: sumtotal F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 306 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T09:56:22+08:00 ] 127.0.0.1 /index.php/Home/Index/ShopCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sumtotal F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 306 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T09:56:35+08:00 ] 127.0.0.1 /index.php/Home/Index/longGoodsShow/goodsid/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `indexshowgoods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T09:56:39+08:00 ] 127.0.0.1 /index.php/Home/Index/longGoodsShow/goodsid/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shopcart` WHERE ( goodsname = '红米Note5A 标准版' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `shopcart` (`pid`,`goodsname`,`goodsprice`,`goodsweight`,`goodsurl`,`goodsnumber`,`goodstotal`) VALUES ('1','红米Note5A 标准版','1499','64G','/Back/Public/upload/5a2a47acae8e9.png','1','1499') [ RunTime:0.0610s ]
+SQL: SELECT * FROM `shopcart` WHERE ( goodsname = '红米Note5A 标准版' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-12-15T09:56:40+08:00 ] 127.0.0.1 /index.php/Home/Index/ShopCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: goodsweight F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 283 行.
+NOTIC: [8] Array to string conversion F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T09:56:42+08:00 ] 127.0.0.1 /index.php/Home/Index/longGoodsShow/goodsid/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `indexshowgoods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T09:56:44+08:00 ] 127.0.0.1 /index.php/Home/Index/longGoodsShow/goodsid/19
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `indexshowgoods` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T09:56:47+08:00 ] 127.0.0.1 /index.php/Home/Index/longGoodsShow/goodsid/19
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shopcart` WHERE ( goodsname = '小米粉红版' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `shopcart` (`pid`,`goodsname`,`goodsprice`,`goodsweight`,`goodsurl`,`goodsnumber`,`goodstotal`) VALUES ('1','小米粉红版','2599','64G','/Back/Public/upload/5a328ed59929d.png','1','2599') [ RunTime:0.0690s ]
+SQL: SELECT * FROM `shopcart` WHERE ( goodsname = '小米粉红版' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-15T09:56:51+08:00 ] 127.0.0.1 /index.php/Home/Index/ShopCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: goodsweight F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 283 行.
+NOTIC: [8] Undefined index: goodsweight F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 283 行.
+NOTIC: [8] Array to string conversion F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T09:57:00+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+SQL: UPDATE `shopcart` SET `goodsnumber`=goodsnumber+1 WHERE ( id = 62 ) [ RunTime:0.0840s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 62 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `shopcart` SET `goodstotal`=goodstotal+2599.00 WHERE ( id = 62 ) [ RunTime:0.0200s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 62 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-15T09:57:00+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+SQL: UPDATE `shopcart` SET `goodsnumber`=goodsnumber+1 WHERE ( id = 62 ) [ RunTime:0.0220s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 62 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `shopcart` SET `goodstotal`=goodstotal+2599.00 WHERE ( id = 62 ) [ RunTime:0.0290s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 62 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-12-15T09:57:01+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+SQL: UPDATE `shopcart` SET `goodsnumber`=goodsnumber+1 WHERE ( id = 62 ) [ RunTime:0.0460s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 62 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `shopcart` SET `goodstotal`=goodstotal+2599.00 WHERE ( id = 62 ) [ RunTime:0.0250s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 62 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-12-15T09:57:01+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+SQL: UPDATE `shopcart` SET `goodsnumber`=goodsnumber+1 WHERE ( id = 62 ) [ RunTime:0.0290s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 62 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `shopcart` SET `goodstotal`=goodstotal+2599.00 WHERE ( id = 62 ) [ RunTime:0.0210s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 62 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-12-15T09:57:02+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `shopcart` SET `goodsnumber`=goodsnumber-1 WHERE ( id = 62 ) [ RunTime:0.0300s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 62 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `shopcart` SET `goodstotal`=goodstotal-2599.00 WHERE ( id = 62 ) [ RunTime:0.0210s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 62 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-15T09:57:02+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `shopcart` SET `goodsnumber`=goodsnumber-1 WHERE ( id = 62 ) [ RunTime:0.0200s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 62 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `shopcart` SET `goodstotal`=goodstotal-2599.00 WHERE ( id = 62 ) [ RunTime:0.0280s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 62 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-15T09:57:02+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+SQL: DELETE FROM `shopcart` WHERE ( id = 62 ) [ RunTime:0.0440s ]
+SQL: SELECT `pid` FROM `shopcart` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-15T09:57:22+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `indexshowgoods` LIMIT 5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T09:57:44+08:00 ] 127.0.0.1 /index.php/Home/Index/longGoodsShow/goodsid/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `indexshowgoods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T10:02:08+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `indexshowgoods` LIMIT 5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T10:02:16+08:00 ] 127.0.0.1 /index.php/Home/Index/longGoodsShow/goodsid/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `indexshowgoods` WHERE ( id = 13 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T10:03:00+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `indexshowgoods` LIMIT 5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T10:03:36+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `indexshowgoods` LIMIT 5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T10:04:34+08:00 ] 127.0.0.1 /index.php/Home/Index/longGoodsShow/goodsid/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `indexshowgoods` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T10:04:42+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '胡经邦' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: goodsweight F:\e-commerce\Runtime\Cache\Home\5927e97c13b67500322f75609f8e8290.php 第 283 行.
+NOTIC: [8] Array to string conversion F:\e-commerce\Runtime\Cache\Home\5927e97c13b67500322f75609f8e8290.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T10:45:03+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `indexshowgoods` LIMIT 5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T10:45:04+08:00 ] 127.0.0.1 /index.php/Home/Signinout/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T10:45:39+08:00 ] 127.0.0.1 /index.php/Home/Signinout/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '超级赛亚人' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopemail = '2292756556@qq.com' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( phonenumber ='17817640045' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-15T10:50:09+08:00 ] 127.0.0.1 /index.php/Home/Signinout/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T10:50:22+08:00 ] 127.0.0.1 /index.php/Home/Signinout/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '17817640045' and shoppassword = '759153wsad' or shopemail = '17817640045' and shoppassword = '759153wsad' or phonenumber = '17817640045' and shoppassword = '759153wsad' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T10:50:23+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `indexshowgoods` LIMIT 5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T10:50:26+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '说话又好听' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=2   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sumtotal F:\e-commerce\Runtime\Cache\Home\5927e97c13b67500322f75609f8e8290.php 第 306 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T10:50:31+08:00 ] 127.0.0.1 /index.php/Home/Index/longGoodsShow/goodsid/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '说话又好听' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `indexshowgoods` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T10:50:34+08:00 ] 127.0.0.1 /index.php/Home/Index/longGoodsShow/goodsid/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '说话又好听' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '说话又好听' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shopcart` WHERE ( goodsname = '小米电视4A 43英寸 标准版' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `shopcart` (`pid`,`goodsname`,`goodsprice`,`goodsweight`,`goodsurl`,`goodsnumber`,`goodstotal`) VALUES ('2','小米电视4A 43英寸 标准版','2699','64G','/Back/Public/upload/5a332d6ec0b6d.png','1','2699') [ RunTime:0.0350s ]
+SQL: SELECT * FROM `shopcart` WHERE ( goodsname = '小米电视4A 43英寸 标准版' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-15T10:50:36+08:00 ] 127.0.0.1 /index.php/Home/Index/ShopCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '说话又好听' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=2   [ RunTime:0.0010s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: goodsweight F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 283 行.
+NOTIC: [8] Array to string conversion F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T10:50:38+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '说话又好听' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=2   [ RunTime:0.0010s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+SQL: UPDATE `shopcart` SET `goodsnumber`=goodsnumber+1 WHERE ( id = 63 ) [ RunTime:0.0330s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 63 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `shopcart` SET `goodstotal`=goodstotal+2699.00 WHERE ( id = 63 ) [ RunTime:0.0230s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 63 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-12-15T10:50:38+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '说话又好听' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=2   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+SQL: UPDATE `shopcart` SET `goodsnumber`=goodsnumber+1 WHERE ( id = 63 ) [ RunTime:0.0350s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 63 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `shopcart` SET `goodstotal`=goodstotal+2699.00 WHERE ( id = 63 ) [ RunTime:0.0230s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 63 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-15T10:50:39+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '说话又好听' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=2   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+SQL: UPDATE `shopcart` SET `goodsnumber`=goodsnumber+1 WHERE ( id = 63 ) [ RunTime:0.0320s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 63 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `shopcart` SET `goodstotal`=goodstotal+2699.00 WHERE ( id = 63 ) [ RunTime:0.0350s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 63 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-12-15T10:50:41+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '说话又好听' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=2   [ RunTime:0.0010s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 49 行.
+SQL: DELETE FROM `shopcart` WHERE ( id = 63 ) [ RunTime:0.0310s ]
+SQL: SELECT `pid` FROM `shopcart` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-12-15T10:50:42+08:00 ] 127.0.0.1 /index.php/Home/Index/longGoodsShow/goodsid/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '说话又好听' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `indexshowgoods` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T10:59:25+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `indexshowgoods` LIMIT 5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T10:59:28+08:00 ] 127.0.0.1 /index.php/Home/Index/index/exit/yes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `indexshowgoods` LIMIT 5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T10:59:30+08:00 ] 127.0.0.1 /index.php/Home/Index/index/exit/yes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `indexshowgoods` LIMIT 5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T10:59:32+08:00 ] 127.0.0.1 /index.php/Home/Signinout/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T10:59:37+08:00 ] 127.0.0.1 /index.php/Home/Index/index/exit/yes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `indexshowgoods` LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T10:59:40+08:00 ] 127.0.0.1 /index.php/Home/Signinout/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T10:59:42+08:00 ] 127.0.0.1 /index.php/Home/Signinout/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T10:59:46+08:00 ] 127.0.0.1 /index.php/Home/Signinout/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T10:59:59+08:00 ] 127.0.0.1 /index.php/Home/Signinout/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '17817640045' and shoppassword = '759153wsad' or shopemail = '17817640045' and shoppassword = '759153wsad' or phonenumber = '17817640045' and shoppassword = '759153wsad' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T11:00:01+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `indexshowgoods` LIMIT 5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T11:00:03+08:00 ] 127.0.0.1 /index.php/Home/Index/index/exit/yes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `indexshowgoods` LIMIT 5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T11:00:15+08:00 ] 127.0.0.1 /index.php/Home/Signinout/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T11:00:22+08:00 ] 127.0.0.1 /index.php/Home/Signinout/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T11:00:27+08:00 ] 127.0.0.1 /index.php/Home/Index/index/exit/yes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `indexshowgoods` LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T11:01:48+08:00 ] 127.0.0.1 /index.php/Home/Signinout/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T11:02:10+08:00 ] 127.0.0.1 /index.php/Home/Signinout/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T11:04:18+08:00 ] 127.0.0.1 /index.php/Home/Signinout/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T11:04:27+08:00 ] 127.0.0.1 /index.php/Home/Signinout/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '17817640045' and shoppassword = '759153wsad' or shopemail = '17817640045' and shoppassword = '759153wsad' or phonenumber = '17817640045' and shoppassword = '759153wsad' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T11:04:28+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `indexshowgoods` LIMIT 5   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: exit F:\e-commerce\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T11:04:40+08:00 ] 127.0.0.1 /index.php/Home/Index/index/exit/yes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `indexshowgoods` LIMIT 5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T11:04:43+08:00 ] 127.0.0.1 /index.php/Home/Signinout/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T11:09:15+08:00 ] 127.0.0.1 /index.php/Home/Signinout/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '17817640045' and shoppassword = '759153wsad' or shopemail = '17817640045' and shoppassword = '759153wsad' or phonenumber = '17817640045' and shoppassword = '759153wsad' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T11:09:18+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `indexshowgoods` LIMIT 5   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: exit F:\e-commerce\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T11:09:36+08:00 ] 127.0.0.1 /index.php/Home/Index/longGoodsShow/goodsid/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '说话又好听' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `indexshowgoods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T11:09:39+08:00 ] 127.0.0.1 /index.php/Home/Index/longGoodsShow/goodsid/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '说话又好听' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '说话又好听' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shopcart` WHERE ( goodsname = '红米Note5A 标准版' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `shopcart` SET `pid`='2',`goodsname`='红米Note5A 标准版',`goodsprice`='699',`goodsweight`='64G',`goodsurl`='/Back/Public/upload/5a2a47acae8e9.png',`goodsnumber`='2',`goodstotal`='2198' WHERE ( id= 61 ) [ RunTime:0.0690s ]
+SQL: SELECT * FROM `shopcart` WHERE ( goodsname = '红米Note5A 标准版' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-15T11:09:42+08:00 ] 127.0.0.1 /index.php/Home/Index/ShopCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '说话又好听' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=2   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 55 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: goodsweight F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 283 行.
+NOTIC: [8] Array to string conversion F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T11:09:44+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '说话又好听' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=2   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 55 行.
+SQL: UPDATE `shopcart` SET `goodsnumber`=goodsnumber+1 WHERE ( id = 61 ) [ RunTime:0.0500s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 61 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `shopcart` SET `goodstotal`=goodstotal+699.00 WHERE ( id = 61 ) [ RunTime:0.0260s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 61 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-15T11:09:44+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '说话又好听' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=2   [ RunTime:0.0010s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 55 行.
+SQL: UPDATE `shopcart` SET `goodsnumber`=goodsnumber+1 WHERE ( id = 61 ) [ RunTime:0.0330s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 61 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `shopcart` SET `goodstotal`=goodstotal+699.00 WHERE ( id = 61 ) [ RunTime:0.0250s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 61 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-15T11:09:45+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '说话又好听' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=2   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 55 行.
+SQL: UPDATE `shopcart` SET `goodsnumber`=goodsnumber+1 WHERE ( id = 61 ) [ RunTime:0.0350s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 61 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `shopcart` SET `goodstotal`=goodstotal+699.00 WHERE ( id = 61 ) [ RunTime:0.0240s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 61 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-15T11:09:45+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '说话又好听' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=2   [ RunTime:0.0010s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 55 行.
+SQL: UPDATE `shopcart` SET `goodsnumber`=goodsnumber+1 WHERE ( id = 61 ) [ RunTime:0.0270s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 61 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `shopcart` SET `goodstotal`=goodstotal+699.00 WHERE ( id = 61 ) [ RunTime:0.0260s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 61 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-15T11:09:45+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '说话又好听' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=2   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 55 行.
+SQL: UPDATE `shopcart` SET `goodsnumber`=goodsnumber+1 WHERE ( id = 61 ) [ RunTime:0.0270s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 61 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `shopcart` SET `goodstotal`=goodstotal+699.00 WHERE ( id = 61 ) [ RunTime:0.0260s ]
+SQL: SELECT * FROM `shopcart` WHERE ( id = 61 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-15T11:09:47+08:00 ] 127.0.0.1 /index.php/Home/Index/shopcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '说话又好听' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=2   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 55 行.
+SQL: DELETE FROM `shopcart` WHERE ( id = 61 ) [ RunTime:0.0390s ]
+SQL: SELECT `pid` FROM `shopcart` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-15T11:09:53+08:00 ] 127.0.0.1 /index.php/Home/Index/longGoodsShow/goodsid/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '说话又好听' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `indexshowgoods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T11:09:57+08:00 ] 127.0.0.1 /index.php/Home/Index/longGoodsShow/goodsid/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '说话又好听' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `indexshowgoods` WHERE ( id = 12 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T11:10:03+08:00 ] 127.0.0.1 /index.php/Home/Index/longGoodsShow/goodsid/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '说话又好听' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '说话又好听' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shopcart` WHERE ( goodsname = '小米笔记本' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `shopcart` (`pid`,`goodsname`,`goodsprice`,`goodsweight`,`goodsurl`,`goodsnumber`,`goodstotal`) VALUES ('2','小米笔记本','3599','64G','/Back/Public/upload/5a2a4cdb29031.png','1','3599') [ RunTime:0.0710s ]
+SQL: SELECT * FROM `shopcart` WHERE ( goodsname = '小米笔记本' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-12-15T11:10:06+08:00 ] 127.0.0.1 /index.php/Home/Index/longGoodsShow/goodsid/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '说话又好听' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `indexshowgoods` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T11:10:08+08:00 ] 127.0.0.1 /index.php/Home/Index/longGoodsShow/goodsid/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '说话又好听' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '说话又好听' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shopcart` WHERE ( goodsname = '小米电视4A 43英寸 标准版' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `shopcart` (`pid`,`goodsname`,`goodsprice`,`goodsweight`,`goodsurl`,`goodsnumber`,`goodstotal`) VALUES ('2','小米电视4A 43英寸 标准版','2699','64G','/Back/Public/upload/5a332d6ec0b6d.png','1','2699') [ RunTime:0.0410s ]
+SQL: SELECT * FROM `shopcart` WHERE ( goodsname = '小米电视4A 43英寸 标准版' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-15T11:10:10+08:00 ] 127.0.0.1 /index.php/Home/Index/ShopCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '说话又好听' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT shopcart.id as scid,indexshowgoods.id as showgoodid,shopcart.goodsprice,shopcart.goodstotal,shopcart.goodsnumber,shopcart.goodsurl,shopcart.goodsname FROM `shopcart` INNER JOIN indexshowgoods on  shopcart.goodsname = indexshowgoods.goodsname  and pid=2   [ RunTime:0.0000s ]
+SQL: SELECT SUM(goodstotal) AS tp_sum FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: reducenum F:\e-commerce\Home\Controller\IndexController.class.php 第 55 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: goodsweight F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 283 行.
+NOTIC: [8] Undefined index: goodsweight F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 283 行.
+NOTIC: [8] Array to string conversion F:\e-commerce\Runtime\Cache\Home\bbec152a339c98a684a712d841b28b3e.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T11:10:11+08:00 ] 127.0.0.1 /index.php/Home/Index/longGoodsShow/goodsid/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shopgoodsuser` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `shopgoodsuser` WHERE ( shopusername = '说话又好听' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( pid = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `indexshowgoods` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T11:10:35+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `indexshowgoods` LIMIT 5   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: exit F:\e-commerce\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T11:10:45+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `indexshowgoods` LIMIT 5   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: exit F:\e-commerce\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T11:10:53+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `indexshowgoods` LIMIT 5   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: exit F:\e-commerce\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-15T11:11:21+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `indexshowgoods` LIMIT 5   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: exit F:\e-commerce\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T11:11:40+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `indexshowgoods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `indexshowgoods` LIMIT 5   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: exit F:\e-commerce\Home\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
